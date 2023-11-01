@@ -26,7 +26,7 @@ app.use(cors());
 
 app.get('/',(request , response)=>{
     console.log(request);
-    return response.status(234).send('welcome to mern tut');
+    return response.status(200).send('welcome to mern tut');
 });
 
 app.use('/books',booksRoute)
